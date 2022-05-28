@@ -5,9 +5,38 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #FCEEEE;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav {
+  display: flex;
+  background-color: #98A8FF;
+  height: 87px;
+} 
+.nav .MuiTabs-indicator {
+  /* display: "none" */
+  background-color: white;
+}
+.nav .MuiButtonBase-root   {
+  /* display: "none" */
+  color: white !important;
+}
+
+.search {
+  width: 100%;
+  margin: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 9px;
+}
+.search .searchInput {
+  height: 40px;
+  width: 668px;
+  background-color: white;
 }
