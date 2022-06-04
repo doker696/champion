@@ -1,23 +1,17 @@
-import { Button, TextField } from '@mui/material';
 import { useEffect, useState } from 'react';
 import { getTypes } from '../api';
-
+import Search from '../components/Search';
 
 function Home() {
-  const [types, setTypes] = useState([]);
-
-  useEffect( () => {
-    getTypes().then( ({data}) => {
-      setTypes(data);
-    });
-  }, []);
-  return (<>
-    <div className='search'>
-      <TextField className='searchInput' size='small' variant='outlined'></TextField>
-      <Button variant='contained' style={{backgroundColor: '#B7BAFF'}}>Поиск</Button>
-    </div>
-    {/* <div>{types.length && types.map((el) => <>{el.name}</>)}</div> */}
-  </>
+  return (
+    <>
+      <div>
+        <div className='text--primary'>Champion - web-приложение для мониторинга и анализа результатов спортивных событий</div>
+        <div className='text--secondary'>для просмотра результатов воспользуйтесь вкладкой “События”</div>
+        <div className='text--secondary'>для просмотра статистики и анализа по видам спорта воспользуйтесь вкладкой “Анализ”</div>
+      </div>
+      {/* <div>{types.length && types.map((el) => <>{el.name}</>)}</div> */}
+    </>
   );
 }
 

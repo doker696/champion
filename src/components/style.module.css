@@ -1,0 +1,106 @@
+.search {
+    margin: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 9px;
+}
+.search .searchInput {
+    height: 40px;
+    width: 740px;
+    background-color: white;
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+}
+
+.btns {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.btn {
+    background-color: #d9d9d9 !important;
+    color: black !important;
+    border-radius: 25px !important;
+    width: 183px;
+    height: 50px;
+}
+
+.eventPaper {
+    width: 900px;
+    height: 190px;
+
+    background: #ffffff;
+    border: 2px solid #bd89ff;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.eventPaperMatch {
+    width: 900px;
+    height: 100px;
+
+    background: #ffffff;
+    border: 2px solid #bd89ff;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.eventTitle {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.eventBtns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.eventBtn {
+    width: 240px;
+}
+
+.eventSubTitle {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(159, 159, 159);
+}
+.eventInfo {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+.watch {
+    background-color: #b6c1ff !important;
+    color: black !important;
+}
+.stat {
+    background-color: #53db9a !important;
+    color: black !important;
+}

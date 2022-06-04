@@ -1,0 +1,42 @@
+{
+  "match": {
+      "pk": 4,
+      "number": 1,
+      "date": "2022-01-01",
+      "first_participant": "asdad",
+      "second_participant": "wqeqeqwe",
+      "score": "9:2"
+    }
+  ,
+  "subevent": [
+      {
+          "pk": 2,
+          "name": "asd",
+          "description": "qweqwe123",
+          "event_id": 1
+      }
+  ],
+  "sport": [
+      {
+          "name":"qwe",
+          "count_events": 2,
+          "count_events_cur_year": 2,
+          "count_events_last_year": 2,
+          "count_events_in_year": [0,1,2,0,0],
+          "avg_count_participant_in_year": [2,3,1,2,2]
+      }
+  ],
+  "events": [
+      {
+          "pk":1,
+          "name":"qwe",
+          "description":"xzc",
+          "date_finish":"123",
+          "date_begin": "123",
+          "country":"rus",
+          "city":"pen",
+          "status":"sad"
+      }
+  ],
+  "types": [{"pk":2,"name":"asdasd"},{"pk":3,"name":"asdasd"},{"pk":4,"name":"asdasd"},{"pk":5,"name":"asdasd"}]
+}
