@@ -150,7 +150,7 @@ const Events = () => {
             <div className={styles.modalText1}>
               {match.first_participant} - {match.second_participant}
             </div>
-            <div className={styles.modalText2}>{match.score}</div>
+            <div className={styles.modalTextScore}>{match.score}</div>
             <div className={styles.modalText2}>{match.date}</div>
             <div className={styles.modalText3}>{match.description}</div>
           </div>

@@ -133,6 +133,15 @@
 
   color: #afa4a4;
 }
+.modalTextScore {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+
+  color: #000000;
+}
 .modalText3 {
   font-family: "Inter";
   font-style: normal;
