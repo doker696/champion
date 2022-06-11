@@ -42,13 +42,24 @@
   color: #8e8e8e;
 }
 .analPaper {
-  width: 761px;
+  position: relative;
+  left: 0;
+  width: 1500px;
   height: 650px;
-
   background: #ffffff;
   border: 2px solid #b7baff;
   border-radius: 25px;
   margin: 10px auto 0;
+}
+.analGraphs {
+  position: absolute;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+  left: 0;
+  justify-content: center;
 }
 .divider {
   width: 777px;
